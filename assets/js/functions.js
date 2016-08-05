@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+  smoothlyScroll(800);
 
 	$(".navToggle").click (function(){
 	  $(this).toggleClass("open");
@@ -14,9 +15,25 @@ $( document ).ready(function() {
 	});
 
 	validateForm();
-
-
 });
+
+
+// Smooth scroll for the fun people
+
+function smoothlyScroll (duration) {
+  $('a[href^="#"]').on('click', function(event) {
+
+      var target = $( $(this).attr('href') );
+
+      if( target.length ) {
+          event.preventDefault();
+          $('html, body').animate({
+              scrollTop: target.offset().top
+          }, duration);
+      }
+  });
+}
+
 
 // Validates contact form
 function validateForm() {

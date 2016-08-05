@@ -1,0 +1,39 @@
+.mouse
+  border: 2px solid $white
+  border-radius: 26px
+  position: absolute
+  bottom: 0
+  left: 50%
+  width: 26px
+  height: 42px
+  -webkit-backface-visibility: hidden
+  transform: translate(-50%, -50%)
+  &::after 
+    background-color: $white
+    border-radius: 100%
+    content: ""
+    position: absolute
+    top: 5px
+    left: 50%
+    margin-left: -2px
+    width: 4px
+    height: 4px
+    opacity: 1
+    transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px)
+    animation: scroll 1.5s -1s cubic-bezier(0.680, -0.550, 0.265, 1.550) infinite
+
+@keyframes scroll
+  0%, 20% 
+    transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px)
+
+  10%
+    transform: translateY(0px) scaleY(1.2) scaleX(1.2) translateZ(0px)
+    opacity: 1;
+  100%
+    transform: translateY(20px) scaleY(2.5) scaleX(0.5) translateZ(0px)
+    opacity: 0.01
+
+*,
+*:after,
+*:before 
+  box-sizing: border-box;

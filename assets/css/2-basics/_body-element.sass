@@ -23,7 +23,9 @@ section
 
 .button
 	background: $highlight
-	padding: 1em 3.5%
+	padding: 1em 2%
+	letter-spacing: .3em
+	border: 2px solid $highlight
 	text-transform: uppercase
 	font-weight: 700
 	font-size: 1.1em
@@ -31,6 +33,7 @@ section
 	transition: all 300ms ease 0s
 	&:hover
 		background: transparentize($dark-grey, .3)
+		border-color: transparentize($dark-grey, .3)
 		color: $white
 		cursor: pointer
 
