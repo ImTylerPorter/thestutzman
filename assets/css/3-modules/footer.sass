@@ -1,0 +1,33 @@
+footer
+	background: $dark-grey
+	padding: 10px 0px
+	+clearfix
+	.contact-info
+		float: left
+		margin-left: 40px
+		padding: 12px 0
+		@media (max-width: 580px)
+			float: none
+			margin: 0 auto
+		p
+			color: $off-white
+			font-weight: lighter
+			font-style: italic
+			font-size: .85em
+			margin: 0
+			span
+				font-weight: bold
+	.social
+		float: right
+		margin-right: 40px
+		text-align: center
+		padding-top: 10px
+		@media (max-width: 580px)
+			float: none
+			margin: 0 auto
+		a
+			color: $off-white
+			display: inline-block
+			margin-right: 15px
+			&:last-of-type
+				margin-right: 0

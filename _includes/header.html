@@ -1,0 +1,16 @@
+<header class="{{page.custom-class}}">
+	<div class="nav-container">
+		<a href="/"><img id="logo" src="/assets/img/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}"/></a>
+		<nav>
+			<div class="navToggle">
+	    	<div class="icon"></div>
+	  	</div>
+			<ul>
+				{% for item in site.data.settings.menu %}
+					<li class="nav-item"><a href="../#products">{{ item.name }}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</div>
+	<h1>{{ page.description }}</h1>
+</header>

@@ -1,0 +1,82 @@
+#submit-success, #submit-errors
+	width: 100%
+	text-align: center
+	p
+		color: white
+		font-size: 1.3em
+		font-weight: lighter
+
+#name-error, #_replyto-error
+	width: 100%
+
+form
+	max-width: 520px
+	margin: 0 auto 50px
+	padding: 0 2.5%
+
+	input, textarea
+		width: 100%
+		+box-sizing(border-box)
+		padding: 10px
+		background: $off-white
+		outline: 0
+		box-shadow: 0
+		border: 1px solid lighten($dark-grey, 30%)
+
+		&:focus
+			outline: none
+			border: 1px solid $highlight
+
+	.submit-wrap
+		text-align: right
+
+	[type="submit"]
+		color: white
+		background: $highlight 
+		font-size: 18px
+		text-transform: uppercase
+		font-weight: 700
+		border: 0
+		width: 33%
+		transition: all 200ms ease-in 0s
+
+		&:hover
+			color: white
+			background: $dark-grey			
+
+
+	textarea
+		height: 10em
+
+	.contact-info-group
+
+		label
+			width: 50%
+			float: left
+			+box-sizing(border-box)
+			color: $dark-grey
+			font-weight: lighter
+			text-transform: uppercase
+			@media (max-width: 526px)
+				float: none
+				width: 100%
+
+			&:nth-child(1)
+				padding-right: 10px
+				@media (max-width: 526px)
+					padding: 0
+			&:nth-child(2)
+				padding-left: 10px
+				@media (max-width: 526px )
+					padding: 0
+
+	label
+		display: block
+		margin-bottom: 20px
+		color: $dark-grey
+		font-weight: lighter
+		text-transform: uppercase
+		margin-top: 10px 
+
+		span
+			display: block		
