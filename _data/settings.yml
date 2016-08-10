@@ -11,8 +11,8 @@ logo: logo.svg
 
 menu:
 - {name: Who We Are, url: '#who-we-are'}
-- {name: Our Work, url: '#work'}
 - {name: Services, url: '#clients'}
+- {name: Our Work, url: '#work'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -23,6 +23,12 @@ menu:
 seo:
   description: 'Provide a description for your website to make it visible to search engines.'
 
+#-------------------------------
+# Services Section
+services:
+- {title: SEPTIC/ATT SYSTEMS, description: '<p>An alternative treatment technology system is required due to smaller lot size, shallow water tables or soil limitations</p><p>Prior to construction of your septic system, an inspector will conduct a site evaluation to determine the type of system you need based on site conditions and proposed use of the property. In addition, your inspector can identify the treatment standard your lot requires.</p>', icon: 'icon-pipe.svg'}
+- {title: LOT CLEARING, description: '<p>Stutzman Excavating is fully equipped to tackle any lot clearance project. From removing a few trees from an existing property to clearing several acres of space, our team has the ability to work year round throughout the Willamette Valley on both residential and commercial properties. We work with builders, developers, landscapers, and homeowners on lot and land clearing. We also provide services for brush clearing, fence lines, food plots, pathways and trails, tree removal and more. We have the equipment and experience to clear, transform, and prepare any property.</p>', icon: 'icon-dig.svg'}
+- {title: 'UTILITIES & SEWER REPAIR', description: "<p>Not long ago in the Willamette Valley, sewer hook ups, along with connection to city or well water was the extent of an excavating company's utility work. Today, our work reflects changing needs in area. Sewer pipe installation no longer comes close to describing all we do. Our utility work includes excavation for horizontal geothermal systems for homes and businesses. We do surface preparation for pervious concrete and asphalt and we're creating retention ponds and rain gardens to manage storm water</p>", icon: 'icon-shovel.svg'}
 
 #-------------------------------
 # Contact Section

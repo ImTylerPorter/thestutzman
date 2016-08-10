@@ -1,0 +1,16 @@
+<section class="services">
+	
+	<div class="container">
+		
+		<h2>SERVICES</h2>
+
+		{% for service in site.data.settings.services %}
+			<div class="service-item">
+				<img class="service-icon" src="../assets/img/{{ service.icon }}">
+    		<h3 class="service-title">{{ service.title }}</h3>
+    		{{ service.description }}
+    	</div>
+    {% endfor %}
+	</div>
+
+</section>
