@@ -1,0 +1,21 @@
+<section class="our-work">
+	
+	<div class="container">
+		
+		<h2>OUR WORK</h2>
+    <div class="our-work-inner">
+
+	
+		{% for project in site.data.settings.projects %}
+			
+			<a href="../assets/img/work/{{project.image}}" data-lightbox="our-work"><img src="../assets/img/work/thumbs/{{ project.thumb}}" alt="{{ project.title }}"></a>
+				
+
+	  {% endfor %}
+
+
+    </div>
+
+
+	</div>
+</section>

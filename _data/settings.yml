@@ -31,6 +31,14 @@ services:
 - {title: 'UTILITIES & SEWER REPAIR', description: "<p>Not long ago in the Willamette Valley, sewer hook ups, along with connection to city or well water was the extent of an excavating company's utility work. Today, our work reflects changing needs in area. Sewer pipe installation no longer comes close to describing all we do. Our utility work includes excavation for horizontal geothermal systems for homes and businesses. We do surface preparation for pervious concrete and asphalt and we're creating retention ponds and rain gardens to manage storm water</p>", icon: 'icon-shovel.svg'}
 
 #-------------------------------
+# Our Work Section
+projects:
+- {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
+- {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
+- {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
+
+
+#-------------------------------
 # Contact Section
 
 social:
