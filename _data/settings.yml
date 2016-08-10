@@ -32,6 +32,7 @@ services:
 
 #-------------------------------
 # Our Work Section
+# Save thumbs at 300 x 300 for consistency
 projects:
 - {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
 - {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
