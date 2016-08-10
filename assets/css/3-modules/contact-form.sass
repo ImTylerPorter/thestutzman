@@ -32,17 +32,18 @@ form
 
 	[type="submit"]
 		color: white
-		background: $highlight 
+		background: transparent
+		border: 2px solid $off-white 
 		font-size: 18px
 		text-transform: uppercase
 		font-weight: 700
-		border: 0
 		width: 33%
 		transition: all 200ms ease-in 0s
+		letter-spacing: .1em
 
 		&:hover
-			color: white
-			background: $dark-grey			
+			color: $dark-grey
+			background: $off-white			
 
 
 	textarea
@@ -57,6 +58,8 @@ form
 			color: $dark-grey
 			font-weight: lighter
 			text-transform: uppercase
+			span
+				color: $off-white
 			@media (max-width: 526px)
 				float: none
 				width: 100%
@@ -76,7 +79,8 @@ form
 		color: $dark-grey
 		font-weight: lighter
 		text-transform: uppercase
-		margin-top: 10px 
+		margin-top: 10px
 
 		span
-			display: block		
+			display: block
+			color: $off-white

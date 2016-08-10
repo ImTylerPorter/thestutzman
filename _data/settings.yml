@@ -10,8 +10,8 @@ logo: logo.svg
 
 
 menu:
+- {name: Services, url: '#services'}
 - {name: Who We Are, url: '#who-we-are'}
-- {name: Services, url: '#clients'}
 - {name: Our Work, url: '#work'}
 - {name: Contact, url: '#contact'}
 
