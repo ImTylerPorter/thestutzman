@@ -35,8 +35,8 @@ services:
 # Save thumbs at 300 x 300 for consistency
 projects:
 - {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
-- {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
-- {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
+- {image: 'bob-cat.jpg', thumb: 'bob-cat-thumb.jpg', title: 'Bob Cat'}
+- {image: 'hole.jpg', thumb: 'hole-thumb.jpg', title: 'Hole'}
 - {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
 - {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
 - {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
