@@ -2,6 +2,8 @@ header
 	background: url(../img/header-bg.jpg)
 	background-size: cover
 	background-position: center center
+	background-blend-mode: overlay
+	background-color: $dark-grey
 	position: relative
 	overflow: hidden
 	min-height: 100vh
@@ -141,6 +143,10 @@ header
 
 	.button
 		margin: 0 10px
+		@media (max-width: 540px)
+			display: block
+			margin: 0 auto 1.5em
+			width: 300px
 	.border-button
 		background: transparent
 		border: 2px solid $white
