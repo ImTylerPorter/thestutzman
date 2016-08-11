@@ -9,6 +9,7 @@ logo: logo-redone.svg
 
 
 
+
 menu:
 - {name: Services, url: '#services'}
 - {name: Who We Are, url: '#who-we-are'}
@@ -37,7 +38,7 @@ projects:
 - {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
 - {image: 'bob-cat.jpg', thumb: 'bob-cat-thumb.jpg', title: 'Bob Cat'}
 - {image: 'hole.jpg', thumb: 'hole-thumb.jpg', title: 'Hole'}
-- {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
-- {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
-- {image: 'down-tree.jpg', thumb: 'down-tree-thumb.jpg', title: 'Fallen Tree'}
+- {image: 'rockwall.jpg', thumb: 'rockwall-thumb.jpg', title: 'Rockwall'}
+- {image: 'bighole.jpg', thumb: 'bighole-thumb.jpg', title: 'Big Hole'}
+- {image: 'drive.jpg', thumb: 'drive-thumb.jpg', title: 'Drive'}
 
