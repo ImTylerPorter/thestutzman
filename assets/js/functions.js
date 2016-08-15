@@ -41,7 +41,7 @@ function validateForm() {
   $("#contact-form").validate({
     submitHandler: function(form) {
       $.ajax({
-        url: "//formspree.io/hello@cleverladder.com", 
+        url: "//formspree.io/kodyroth@gmail.com", 
         method: "POST",
         data: {
           name: $(form).find("input[name='name']").val(),
