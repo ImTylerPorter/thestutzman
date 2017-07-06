@@ -9,26 +9,39 @@ header
 	min-height: 100vh
 	text-align: center
 	.scroller
-		background-color: transparentize($highlight,.05)
+		background-color: transparentize($dark,.05)
 		transition: background-color 1s ease 0s
+		#logo
+			width: 100px !important
+			display: inline-block
+			float: left
+			margin: 0px 0 0px 40px !important
+			// #StutzmanExcavating-Logo_Plain
+			// 	#bucket
+			// 		fill: #fff !important
+			// 	#border-box
+			// 		fill: $dark !important
 	.nav-container
 		// background-color: transparentize($highlight,.05)
 		z-index: 10
 		position: fixed
 		width: 100%
 		top: 0px
-		padding-top: 20px
-		padding-bottom: 20px
 		+clearfix
 		#logo
-			width: 325px
+			width: 195px
 			display: inline-block
 			float: left
-			margin: 10px 0 0px 40px
-			@media (max-width: 875px)
-				width: 200px
-				margin-top: 20px
+			margin: 20px 0 0px 40px
+			@media (max-width: 620px)
+				width: 100px
+				margin-top: 00px
 				margin-left: 20px
+			#StutzmanExcavating-Logo_Plain
+				#bucket
+					fill: $highlight
+				#bucket
+					fill: $highlight
 
 		nav
 			+clearfix
@@ -45,7 +58,7 @@ header
 					padding-right: 35px
 					margin: 0
 				@media (min-width: 850px)
-					padding-top: 10px
+					padding-top: 40px
 					padding-right: 40px
 					margin: 0
 				text-align: right
@@ -154,7 +167,7 @@ header
 		&:hover
 			background: $highlight
 			border-color: $highlight
-	
+
 
 
 
